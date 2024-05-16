@@ -1,0 +1,161 @@
+body {
+    color: #F2F2F2;
+    background-color:#3C3C40;
+    font-family: Helvetica;
+}
+
+ul.nav {
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 18px;
+}
+
+h2{
+    text-align:start;
+    color: black;
+    margin: 15px;
+    size: 10px;
+}
+
+h3 {
+    text-align: left;
+    color:black;
+    margin: 25px;
+}
+
+p.oi {
+    color: black
+}
+
+button {
+    background-color: #EAF205;
+    color:#3C3C40;
+    border-radius: 2px;
+    border-radius: 12px;
+    border: 2px solid #3C3C40;
+    font-size: 16px;
+}
+div.h {
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    border-radius: 15px;
+    text-align: center;
+}
+
+div.left {
+    margin: 5px;
+    text-align: center;
+    
+}
+
+div.center {
+    margin-left: 45px;
+    text-align: center;
+    
+}
+
+div.right {
+    margin-left: 60px;
+    text-align: center;
+}
+
+header h1 {
+    color: #EAF205;
+}
+
+h1 {
+    color: #3C3C40;
+}
+a {
+    color: #3C3C40;
+    text-decoration: none;
+}
+
+big {
+    color: black;
+}
+/* eu peguei a ideia dessa animação neste link aqui: */
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        flex: 1 0 10em;  
+        box-shadow: 0 0 30px #424242;
+        overflow: hidden;
+        padding: 1em;
+        color: white;
+        transition: flex-basis 500ms ease-in-out;
+    }
+    .item:hover {
+        flex-basis: 20em;
+    }
+    .item:hover .detales {
+        opacity: 1;
+        .name {
+          font-size: 1.2em;
+          font-weight: 600;
+        }
+    }
+}
+
+.item-1 {
+    background-color: #EAF205;
+}
+
+.item-2 {
+    background-color: #F2E416;
+}
+
+.item-3 {
+    background-color: #F2EC99;
+}
+
+nav {
+    text-align: center;
+    justify-content: center;
+    background: #f2f2f2;
+}
+
+ul {
+    display: contents;
+    justify-content: space-evenly;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #EAF205;
+}
+
+header {
+    display: flex;
+    margin: 50px;
+}
+
+hr {
+    border: 1px solid #3C3C40;
+}
+
